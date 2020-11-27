@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/group"
+        android:title="@string/make_group"/>
+
+    <item
+        android:id="@+id/view_group"
+        android:title="@string/view_group"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="@string/save_info"/>
+
+    <item
+        android:id="@+id/signout"
+        android:title="@string/sign_out"/>
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting"/>
+<!--    1.delete account-->
+<!--    2.change no.-->
+<!--    3.Theme-->
+<!--    4.font size-->
+
+
+
+</menu>

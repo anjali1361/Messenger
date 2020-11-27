@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="bgc_chat_activity">@color/bright_color</item>
+        <item name="bgc_login_activity">@color/colorPrimary</item>
+        <item name="bgc_other_activity">@color/white_color</item>
+        <item name="tc_bold">#000000</item>
+        <item name="tc_light">#ffffff</item>
+        <item name="tc_grey">#EEEEEE</item>
+    </style>
+
+
+    <!-- dark mode theme here. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="bgc_chat_activity">@color/black_color_Night</item>
+        <item name="bgc_login_activity">@color/black_color_Night</item>
+        <item name="bgc_other_activity">@color/black_color_Night</item>
+        <item name="tc_bold">@color/white_color_Night</item>
+        <item name="tc_light">#ffffff</item>
+        <item name="tc_grey">#EEEEEE</item>
+    </style>
+
+    <style name="MyTheme" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

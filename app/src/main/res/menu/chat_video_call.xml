@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/chat_call"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/video_call"
+        android:icon="@drawable/ic_baseline_videocam_24"
+        android:title="@string/search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/add_to_contact"
+        android:title="@string/add_to_contact"/>
+
+    <item
+        android:id="@+id/wall_paper"
+        android:title="@string/wallpaper"/>
+
+    <item
+        android:id="@+id/clear_chat"
+        android:title="@string/clear_chat"/>
+
+    <item
+        android:id="@+id/delete_contact"
+        android:title="@string/delete_contact"/>
+
+
+
+
+
+
+
+
+
+
+</menu>

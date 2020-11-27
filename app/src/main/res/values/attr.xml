@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dt">
+        <attr name="colorPrimary" format="color"/>
+        <attr name="colorPrimaryDark" format="color"/>
+        <attr name="colorAccent" format="color"/>
+        <attr name="bgc_chat_activity" format="color"/>
+        <attr name="bgc_login_activity" format="color"/>
+        <attr name="bgc_other_activity" format="color"/>
+        <attr name="tc_bold" format="color"/>
+        <attr name="tc_light" format="color"/>
+        <attr name="tc_grey" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="camera">Camera</string>
+    <string name="chat">Chat</string>
+    <string name="status">Status</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Login</string>
+    <string name="phone">Phone</string>
+    <string name="get_the_verification_code">GET THE VERIFICATION CODE</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="next">NEXT</string>
+    <string name="search">search</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send">SEND</string>
+    <string name="sign_out">sign out</string>
+    <string name="setting">settings</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="add_to_contact">Add to contact</string>
+    <string name="clear_chat">Clear chat</string>
+    <string name="delete_contact">Delete contact</string>
+    <string name="contact">Contact</string>
+    <string name="make_group">make group</string>
+    <string name="view_group">view group</string>
+
+    <!--activity-->
+    <string name="enter_the_text_first">Enter the text first</string>
+    <string name="phone_no_is_not_valid">Phone no. is not valid</string>
+    <string name="Wrong_OTP">Wrong OTP</string>
+    <string name="VERIFY">VERIFY</string>
+    <string name="Login_Successfull">Login Successful</string>
+    <string name="Save_Info">Save Info</string>
+    <string name="your_update_saved_successfully">your update saved successfully</string>
+    <string name="share_using">share using</string>
+    <string name="permission_denied">permission denied</string>
+    <string name="Select_Picture">Select Picture</string>
+    <string name="Internet_Connection_is_not_Found">Internet Connection is not Found</string>
+    <string name="Open_Settings">Open Settings</string>
+    <string name="Exit">Exit</string>
+    <string name="FCM_token_is_null">FCM token is null</string>
+    <string name="Error">Error</string>
+    <string name="english">english</string>
+    <string name="hindi">hindi</string>
+    <string name="save_profile_info_first">Save Profile Info First</string>
+    <string name="ok">OK</string>
+    <!--    <string name="cancel">Cancel</string>-->
+    <string name="enter_some_info_to_chat">Enter some information about yourself to let others chat with you</string>
+    <string name="select_first_to_send">Select something to send</string>
+    <string name="send_message_via_full_screen_activity">Send Message</string>
+
+    <!--settings-->
+    <string name="delete_account">Delete account</string>
+    <string name="change_number">Change number</string>
+    <string name="theme">Theme</string>
+    <string name="font_size">Font size</string>
+    <string name="app_language">App language</string>
+    <string name="enter_name">enter name</string>
+    <string name="enter_bio">enter bio</string>
+    <string name="enter_email">enter email</string>
+    <string name="share">share</string>
+    <string name="save_info">save info</string>
+    <string name="logout">logout</string>
+    <string name="r_u_sure">Are you sure?</string>
+    <string name="delete_acc_mess">Deleting this account will result in completly removing your account from the system and you would not be able to access the app</string>
+    <string name="delete_acc">Delete</string>
+    <string name="Cancel">Cancel</string>
+    <string name="user_acc_deleted">User account deleted</string>
+    <string name="default_lang_set">default language is set.... reopen the app</string>
+    <string name="proccedd_next">next</string>
+
+
+    <!--theme-->
+    <string-array name="theme_items">
+        <item>Select Night Mode</item>
+        <item>Follow System</item>
+        <item>YES</item>
+        <item>NO</item>
+        <item>AUTO</item>
+    </string-array>
+
+</resources>

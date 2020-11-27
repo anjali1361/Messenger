@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">मैसेंजर</string>
+    <string name="camera">कैमरा</string>
+    <string name="chat">चैट</string>
+    <string name="status">स्थिति</string>
+    <string name="login_failed">लॉगिन विफल</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="phone">फ़ोन</string>
+    <string name="get_the_verification_code">सत्यापन कोड प्राप्त करें</string>
+    <string name="enter_otp">ओटीपी दर्ज करें</string>
+    <string name="next">आगे</string>
+    <string name="search">खोज</string>
+    <string name="enter_message">संदेश दर्ज करें</string>
+    <string name="send">भेजें</string>
+    <string name="sign_out">प्रस्थान करें</string>
+    <string name="setting">समायोजन</string>
+    <string name="wallpaper">वॉलपेपर</string>
+    <string name="add_to_contact">संपर्क में जोडें</string>
+    <string name="clear_chat">मिटा दो चैट</string>
+    <string name="delete_contact">संपर्क मिटा दें</string>
+    <string name="contact">संपर्क</string>
+    <string name="make_group">समूह बनाओ</string>
+    <string name="view_group">समूह देखें</string>
+    <string name="save_profile_info_first">प्रोफ़ाइल जानकारी पहले सहेजें</string>
+    <string name="ok">ठीक है</string>
+<!--    <string name="cancel">रद्द करना</string>-->
+    <string name="enter_some_info_to_chat">दूसरों के साथ बातचीत करने के लिए अपने बारे में कुछ जानकारी दर्ज करें</string>
+    <string name="select_first_to_send">भेजने के लिए कुछ चुनें</string>
+    <string name="send_message_via_full_screen_activity">संदेश भेजें</string>
+
+    <!--activity-->
+    <string name="enter_the_text_first">पहले पाठ दर्ज करें</string>
+    <string name="phone_no_is_not_valid">फोन नंबर मान्य नहीं है</string>
+    <string name="Wrong_OTP">गलत ओटीपी</string>
+    <string name="VERIFY">सत्यापित करें</string>
+    <string name="Login_Successfull">सफलतापूर्ण प्रवेश</string>
+    <string name="Save_Info">जानकारी सहेजें</string>
+    <string name="your_update_saved_successfully">आपका अपडेट सफलतापूर्वक सहेजा गया</string>
+    <string name="share_using">का उपयोग कर साझा करें</string>
+    <string name="permission_denied">अनुमति नहीं मिली</string>
+    <string name="Select_Picture">चित्र का चयन करें</string>
+    <string name="Internet_Connection_is_not_Found">इंटरनेट कनेक्शन नहीं मिला है</string>
+    <string name="Open_Settings">सेटिंग्स खोलें</string>
+    <string name="Exit">बाहर जाएं</string>
+    <string name="FCM_token_is_null">FCM टोकन अशक्त है</string>
+    <string name="Error">त्रुटि</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="hindi">हिन्दी</string>
+
+    <!--settings-->
+    <string name="delete_account">खाता हटा दो</string>
+    <string name="change_number">मोबाइल नंबर बदलें</string>
+    <string name="theme">विषय</string>
+    <string name="font_size">फ़ॉन्ट आकार</string>
+    <string name="app_language">ऐप की भाषा</string>
+    <string name="enter_name">नाम दर्ज</string>
+    <string name="enter_bio">जैव दर्ज करें</string>
+    <string name="enter_email">ईमेल दर्ज करें</string>
+    <string name="share">शेयर</string>
+    <string name="save_info">जानकारी सहेजें</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="r_u_sure">क्या आपको यकीन है?</string>
+    <string name="delete_acc_mess">इस खाते को हटाने से आपका खाता पूरी तरह से सिस्टम से हट जाएगा और आप ऐप तक नहीं पहुंच पाएंगे</string>
+    <string name="delete_acc">हटाएं</string>
+    <string name="Cancel">रद्द करना</string>
+    <string name="user_acc_deleted">उपयोगकर्ता खाता हटा दिया गया</string>
+    <string name="default_lang_set">डिफ़ॉल्ट भाषा सेट है .... एप्लिकेशन को फिर से खोलें</string>
+    <string name="proccedd_next">आगे</string>
+
+    <string-array name="theme_items">
+        <item>नाइट मोड का चयन करें</item>
+        <item>सिस्टम का पालन करें</item>
+        <item>हाँ</item>
+        <item>नहीं</item>
+        <item>स्वचालित</item>
+    </string-array>
+
+</resources>

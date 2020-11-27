@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#f2080c</color>
+    <color name="colorPrimaryDark">#e65100</color>
+    <color name="colorAccent">#e1976a</color>
+    <color name="bright_color">#ffdcc7</color>
+    <color name="light_color">#e1976a</color>
+    <color name="white_color">#ffffff</color>
+    <color name="black_color">#000000</color>
+
+    <!--speciafication of color for day night mode-->
+    <color name="colorPrimaryNight">#d81b60</color>
+    <color name="colorPrimaryDarkNight">#ad1457</color>
+    <color name="colorAccentNight">#f50057</color>
+    <color name="bright_colorNight">#ffdcc7</color>
+    <color name="light_color_Night">#e1976a</color>
+    <color name="white_color_Night">#ffffff</color>
+    <color name="black_color_Night">#000000</color>
+</resources>

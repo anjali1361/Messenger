@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ProfileActivity"
+    android:id="@+id/relativeLayout"
+    android:background="?attr/bgc_other_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="2dp"
+        app:titleTextAppearance="@style/ToolbarTitle"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/white_color"
+        tools:ignore="NotSibling,UnknownIdInLayout"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_marginTop="45dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="52dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:id="@+id/profile_pic"
+                android:src="@drawable/facebookmessenger"
+                android:layout_centerHorizontal="true"
+                app:civ_border_width="4dp"
+                app:civ_border_color="?attr/colorAccent"
+                android:elevation="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="85dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingBottom="15dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="?attr/tc_grey">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/name_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/enter_name"
+                            android:textStyle="bold"
+                            android:padding="3dp"
+                            android:textSize="25sp"
+                            android:textColorHint="?attr/tc_bold"
+                            android:layout_marginTop="55dp"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/bio_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="19sp"
+                            android:layout_marginTop="10dp"
+                            android:padding="3dp"
+                            android:textColorHint="?attr/tc_bold"
+                            android:hint="@string/enter_bio"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/email_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="19sp"
+                            android:layout_marginTop="10dp"
+                            android:padding="3dp"
+                            android:hint="@string/enter_email"
+                            android:textColorHint="?attr/tc_bold"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/phone_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="19sp"
+                            android:maxLength="10"
+                            android:inputType="phone"
+                            android:layout_marginTop="10dp"
+                            android:padding="3dp"
+                            android:hint="@string/phone"
+                            android:textColorHint="?attr/tc_bold"
+                            android:layout_gravity="center_horizontal"/>
+
+
+                        <ImageView
+                            android:id="@+id/share"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_baseline_share_24"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="30dp"/>
+
+                        <TextView
+                            android:id="@+id/share_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="19sp"
+                            android:text="@string/share"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <ImageView
+                            android:id="@+id/edit"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_baseline_edit_24"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="30dp"/>
+
+                        <TextView
+                            android:id="@+id/edit_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="19sp"
+                            android:text="@string/save_info"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <ImageView
+                            android:id="@+id/logout"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_baseline_arrow_back_24"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="30dp"/>
+
+                        <TextView
+                            android:id="@+id/logout_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="19sp"
+                            android:text="@string/logout"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <ImageView
+                            android:id="@+id/next"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_next"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="30dp"/>
+
+                        <TextView
+                            android:id="@+id/text_next"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="19sp"
+                            android:text="@string/proccedd_next"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center_horizontal"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
